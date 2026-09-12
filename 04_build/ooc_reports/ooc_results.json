@@ -1,0 +1,14 @@
+{
+  "LUT": 4271,
+  "FF": 4945,
+  "DSP": 17,
+  "BRAM_36K": 0,
+  "BRAM_18K": 0,
+  "URAM": 0,
+  "SRL": 96,
+  "WNS": 5.218,
+  "total_power_W": 0.615,
+  "clk_period_ns": 10.0,
+  "vivado_version": "2024.2",
+  "fmax_mhz": 209.11752404851526
+}

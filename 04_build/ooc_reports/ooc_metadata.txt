@@ -1,0 +1,2 @@
+clk_period_ns=10.000000
+vivado_version=2024.2
