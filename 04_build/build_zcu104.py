@@ -7,12 +7,12 @@ from finn.transformation.fpgadataflow.make_zynq_proj import ZynqBuild
 
 ROOT = Path(__file__).resolve().parents[1]
 
-MODEL = ROOT / "04_build" / "partitions" / "partition_0.onnx"
+MODEL = ROOT / "04_build" / "partitions_tmr" / "partition_0.onnx"
 
-OUTPUT = ROOT / "04_build" / "zcu104_deploy"
+OUTPUT = ROOT / "04_build" / "zcu104_deploy_tmr"
 OUTPUT.mkdir(exist_ok=True)
 
-PARTITION_DIR = ROOT / "04_build" / "zcu104_partitions"
+PARTITION_DIR = ROOT / "04_build" / "zcu104_partitions_tmr"
 PARTITION_DIR.mkdir(exist_ok=True)
 
 

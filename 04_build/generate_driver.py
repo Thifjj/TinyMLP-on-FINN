@@ -10,11 +10,11 @@ ROOT = Path(__file__).resolve().parents[1]
 MODEL = (
     ROOT
     / "04_build"
-    / "zcu104_deploy"
+    / "zcu104_deploy_tmr"
     / "tiny_mlp_zcu104.onnx"
 )
 
-DEPLOY = ROOT / "04_build" / "zcu104_deploy"
+DEPLOY = ROOT / "04_build" / "zcu104_deploy_tmr"
 DRIVER_OUT = DEPLOY / "driver"
 
 
@@ -44,7 +44,7 @@ shutil.copytree(
 
 # salvar ONNX com metadata do driver
 model.save(
-    str(DEPLOY / "tiny_mlp_zcu104_driver.onnx")
+    str(DEPLOY / "tiny_mlp_zcu104_driver_tmr.onnx")
 )
 
 print()

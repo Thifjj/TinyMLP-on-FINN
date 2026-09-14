@@ -37,7 +37,7 @@ model = model.transform(
     )
 )
 
-saida = ROOT / "04_build" / "partition_ipgen.onnx"
+saida = ROOT / "04_build" / "partition_ipgen_tmr.onnx"
 
 model.save(str(saida))
 
